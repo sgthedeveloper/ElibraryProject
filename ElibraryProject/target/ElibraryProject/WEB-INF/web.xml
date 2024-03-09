@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>LibraryPackage.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AlreadyRegistered</servlet-name>
+  	<display-name>AlreadyRegistered</display-name>
+  	<description>Usernames</description>
+  	<servlet-class>LibraryPackage.AlreadyRegistered</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EbookShop</servlet-name>
+  	<display-name>EbookShop</display-name>
+  	<description></description>
+  	<servlet-class>LibraryPackage.EbookShop</servlet-class>
+  </servlet>
+  <servlet>
+  	<display-name>registrationClass</display-name>
+  	<servlet-name>registrationClass</servlet-name>
+  	<servlet-class>LibraryPackage.registrationClass</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>WelcomePage</display-name>
+  	<servlet-name>WelcomePage</servlet-name>
+  	<servlet-class>WelcomePage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EbookShop</servlet-name>
+  	<url-pattern>/EbookShop</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>registrationClass</servlet-name>
+  	<url-pattern>/registrationClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WelcomePage</servlet-name>
+  	<url-pattern>/WelcomePage</url-pattern>
+  </servlet-mapping>
+</web-app>
